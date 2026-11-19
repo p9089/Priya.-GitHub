@@ -1,0 +1,41 @@
+print(=====Smart calcultor=====)
+
+while true:
+  print("\nChoose an operation:")
+  print("1.Addition (+)")
+  print("2.Subtration(-)")
+  print("3.Multiplication(*)")
+  print("4.Divition(/)")
+  print("5. Modulus(%)")
+  print("6. Power(**)")
+  print("7.Exite")
+
+   choice= input("enter the   choice(1-7):")
+   if choice=="7":
+    break
+     print("Thank you for using calcultor!")
+if choice not in ["1","2","3","4","5","6"]:
+   print("Invaild choice!")
+    continue
+a= float(input("enter the first number:"))
+b= float(input("enter the second number:"))
+if choice=="1":
+  print("Result:", a+b)
+  elif choice=="2":
+    print("Result:", a-b)
+elif choice=="3":
+   print("Result:", a*b)
+ elif choice=="4":
+   if b==0:
+     print("cannot divide by zero!")
+ else:
+    print("Result:",a/b)
+  elif choice=="5"
+      print("Result:",a%b)
+   elif choice=="6":
+     print("result:", a**b)
+     
+    
+  
+   
+    
